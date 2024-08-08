@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-03T13:16:13 IST" name="Suite" finished-at="2024-08-03T13:17:50 IST" duration-ms="97389">
+    <groups>
+    </groups>
+    <test started-at="2024-08-03T13:16:13 IST" name="Testedge" finished-at="2024-08-03T13:17:50 IST" duration-ms="97389">
+      <class name="testcases.Login">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testcases.Login@6150c3ec]" started-at="2024-08-03T13:16:13 IST" name="setUp" finished-at="2024-08-03T13:16:25 IST" duration-ms="12066" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchBox(java.lang.String)[pri:1, instance:testcases.Login@6150c3ec]" started-at="2024-08-03T13:16:25 IST" name="searchBox" finished-at="2024-08-03T13:16:25 IST" duration-ms="343" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBox -->
+        <test-method signature="clickonMyworkspace()[pri:2, instance:testcases.Login@6150c3ec]" started-at="2024-08-03T13:16:25 IST" name="clickonMyworkspace" finished-at="2024-08-03T13:16:40 IST" duration-ms="15161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickonMyworkspace -->
+        <test-method signature="datepicker(java.lang.String,java.lang.String)[pri:3, instance:testcases.Login@6150c3ec]" started-at="2024-08-03T13:16:40 IST" name="datepicker" finished-at="2024-08-03T13:16:41 IST" duration-ms="874" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[August 2024]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[06]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datepicker -->
+        <test-method signature="selectSeat()[pri:5, instance:testcases.Login@6150c3ec]" started-at="2024-08-03T13:16:41 IST" name="selectSeat" finished-at="2024-08-03T13:17:40 IST" duration-ms="59079" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSeat -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.Login@6150c3ec]" started-at="2024-08-03T13:17:40 IST" name="tearDown" finished-at="2024-08-03T13:17:50 IST" duration-ms="9737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.Login -->
+    </test> <!-- Testedge -->
+  </suite> <!-- Suite -->
+</testng-results>
